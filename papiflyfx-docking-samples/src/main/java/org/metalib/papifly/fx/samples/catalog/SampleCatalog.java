@@ -1,0 +1,83 @@
+package org.metalib.papifly.fx.samples.catalog;
+
+import org.metalib.papifly.fx.samples.SampleScene;
+import org.metalib.papifly.fx.samples.code.JavaEditorSample;
+import org.metalib.papifly.fx.samples.code.JavaScriptEditorSample;
+import org.metalib.papifly.fx.samples.code.JsonEditorSample;
+import org.metalib.papifly.fx.samples.code.MarkdownEditorSample;
+import org.metalib.papifly.fx.samples.code.YamlEditorSample;
+import org.metalib.papifly.fx.samples.docks.BasicSplitSample;
+import org.metalib.papifly.fx.samples.docks.FloatingSample;
+import org.metalib.papifly.fx.samples.docks.MinimizeSample;
+import org.metalib.papifly.fx.samples.docks.NestedSplitSample;
+import org.metalib.papifly.fx.samples.docks.PersistSample;
+import org.metalib.papifly.fx.samples.docks.RibbonPlacementSample;
+import org.metalib.papifly.fx.samples.docks.RibbonShellSample;
+import org.metalib.papifly.fx.samples.docks.TabGroupSample;
+import org.metalib.papifly.fx.samples.media.HlsStreamSample;
+import org.metalib.papifly.fx.samples.media.ImageViewerSample;
+import org.metalib.papifly.fx.samples.media.MediaPersistSample;
+import org.metalib.papifly.fx.samples.media.SplitMediaSample;
+import org.metalib.papifly.fx.samples.media.VideoPlayerSample;
+import org.metalib.papifly.fx.samples.media.YouTubeEmbedSample;
+import org.metalib.papifly.fx.login.idapi.providers.GenericOidcProvider;
+import org.metalib.papifly.fx.login.idapi.providers.GitHubProvider;
+import org.metalib.papifly.fx.login.idapi.providers.GoogleProvider;
+import org.metalib.papifly.fx.samples.github.GitHubRibbonSample;
+import org.metalib.papifly.fx.samples.hugo.HugoPreviewSample;
+import org.metalib.papifly.fx.samples.github.GitHubToolbarSample;
+import org.metalib.papifly.fx.samples.hugo.HugoRibbonSample;
+import org.metalib.papifly.fx.samples.login.LoginSample;
+import org.metalib.papifly.fx.samples.settings.SettingsPanelSample;
+import org.metalib.papifly.fx.samples.tree.TreeViewNodeInfoSample;
+import org.metalib.papifly.fx.samples.tree.TreeViewSample;
+
+import java.util.List;
+
+/**
+ * Static registry of all available samples in display order.
+ */
+public final class SampleCatalog {
+
+    private SampleCatalog() {}
+
+    /**
+     * Returns all samples in catalog display order.
+     * Categories are represented by each sample's category metadata.
+     *
+     * @return ordered sample scene list
+     */
+    public static List<SampleScene> all() {
+        return List.of(
+            new BasicSplitSample(),
+            new NestedSplitSample(),
+            new TabGroupSample(),
+            new FloatingSample(),
+            new MinimizeSample(),
+            new PersistSample(),
+            new RibbonShellSample(),
+            new RibbonPlacementSample(),
+            new MarkdownEditorSample(),
+            new JavaEditorSample(),
+            new JavaScriptEditorSample(),
+            new JsonEditorSample(),
+            new YamlEditorSample(),
+            new TreeViewSample(),
+            new TreeViewNodeInfoSample(),
+            new ImageViewerSample(),
+            new VideoPlayerSample(),
+            new SplitMediaSample(),
+            new HlsStreamSample(),
+            new YouTubeEmbedSample(),
+            new MediaPersistSample(),
+            new HugoPreviewSample(),
+            new HugoRibbonSample(),
+            new GitHubToolbarSample(),
+            new GitHubRibbonSample(),
+            new LoginSample("Sign in with Google", GoogleProvider.PROVIDER_ID),
+            new LoginSample("Sign in with GitHub", GitHubProvider.PROVIDER_ID),
+            new LoginSample("Sign in with OIDC", GenericOidcProvider.PROVIDER_ID),
+            new SettingsPanelSample()
+        );
+    }
+}
