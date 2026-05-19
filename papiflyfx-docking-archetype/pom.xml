@@ -59,7 +59,7 @@
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-bom</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
