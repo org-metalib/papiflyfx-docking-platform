@@ -6,7 +6,7 @@
         <artifactId>papiflyfx-build-parent</artifactId>
         <version>0.0.30</version>
     </parent>
-    <version>0.0.26</version>
+    <version>0.0.27-SNAPSHOT</version>
     <artifactId>papiflyfx-docking-platform</artifactId>
     <packaging>pom</packaging>
     <name>papiflyfx-docking-platform</name>
@@ -24,6 +24,6 @@
         <connection>scm:git:git://github.com/org-metalib/papiflyfx-docking-platform.git</connection>
         <developerConnection>scm:git:https://github.com/org-metalib/papiflyfx-docking-platform.git</developerConnection>
         <url>https://github.com/org-metalib/papiflyfx-docking-platform</url>
-        <tag>v0.0.26</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
