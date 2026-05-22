@@ -15,87 +15,87 @@
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-api</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-docks</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-settings-api</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-settings.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-settings</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-settings.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-login-idapi</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-login.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-login-session-api</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-login.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-login</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-login.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code-java</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code-javascript</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code-json</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code-yaml</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-code-markdown</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-code.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-tree</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-content.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-media</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-content.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-hugo</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-content.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.metalib.papifly.docking</groupId>
                 <artifactId>papiflyfx-docking-github</artifactId>
-                <version>${papiflyfx.version}</version>
+                <version>${papiflyfx-docking-content.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
